@@ -40,7 +40,7 @@ function App() {
     }
 
     getProblems();
-  }); // dependency...
+  }, []);
 
   return (
     <div className="App">
