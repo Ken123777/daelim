@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 .App {
-  background-color: #212121;
+  background-color: #ffffff;
   height: 100vh;
   font-family: 'Permanent Marker', cursive;
 }
@@ -20,7 +20,7 @@ ul {
 
 ul li {
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   margin: 5px 0;
 }
 
@@ -30,7 +30,7 @@ ul > li h3 {
 
 ul > li button {
   margin-left: 10px;
-  border: none;
+  border: 1px solid black;
   border-radius: 2px;
   background-color: #ffffff;
   transition: all .3s linear;
@@ -65,4 +65,8 @@ ul > li button:hover {
 
 .code-editor {
   background-color: brown;
+}
+
+.CodeMirror {
+  font-size: 20px;
 }
