@@ -6,19 +6,36 @@ import { postUserSolution } from './api/problems';
 
 export default function ProblemDetail({ problem }) {
   const [ code, setCode ] = useState("");
+  const [ isModalShowing, setIsModalShowing ] = useState(false);
+  const [ codeResult, setCodeResult ] = useState("");
 
   function validateAnswer () {
     postUserSolution(problem._id, code).then(data => {
+      setIsModalShowing(true);
+
       if (data.result !== '에러') {
-        alert(data.result);
+        setCodeResult(data.result);
       } else {
-        alert(data.detail);
+        setCodeResult(data.detail);
       }
     });
   }
 
   return (
     <div className="problem">
+      {
+        isModalShowing &&
+        <div>
+          <div
+            className="modal-overlay"
+            onClick={() => setIsModalShowing(false)}
+          ></div>
+          <div className="modal">
+            { codeResult }
+            <button onClick={() => setIsModalShowing(false)}>Close</button>
+          </div>
+        </div>
+      }
       <section className="description">
         <h3>{problem.title}</h3>
         <p>{problem.description}</p>
