@@ -16,7 +16,7 @@
 
 - [ ] `hashTable`를 구현하세요.
   - **시작 하기전에:** 여러분들에게 주어진 helper function이 무슨일을 하는지 파악하기 위해 여러가지 시도를 해보세요.
-  - 이미 주어진 has function을 가지고 key value를 array index value로 변경할 것입니다.
+  - 이미 주어진 hash function을 가지고 key value를 array index value로 변경할 것입니다.
   - `limitedArray` helper function도 이미 구현되있습니다.
   - `limitedArray`의 source code는 `src/hashTableHelpers.js`에 있습니다.
   - JavaScript의 array를 사용하지말고 `limitedArray`를 사용하여 저장해야할 값을 넣어주세요.
