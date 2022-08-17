@@ -5,10 +5,7 @@
 
 
 
-### 아래 내용은 확인 후에 지우시고 PR을 올려주세요!
-
-ex) 질문 예시
-[100번째 라인](링크링크) 에서 이런 저런 부분이 헷갈리는데 요런저런 도움을 주실 수 있을까요?
+#### 아래 내용은 확인 후에 지우시고 PR을 올려주세요!
 
 ## 질문 내용 작성 시 유의 사항
 
@@ -20,3 +17,6 @@ ex) 질문 예시
 [Github 공식 문서 보기](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet)
 
 [Github 마크다운 문법 설명서](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+ex) 질문 예시:
+[100번째 라인](링크링크)에서 이런 저런 부분이 헷갈리는데 요런저런 도움을 주실 수 있을까요?
