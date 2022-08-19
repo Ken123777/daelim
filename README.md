@@ -27,3 +27,9 @@
   - [ ] `.retrieve()` method
   - [ ] `.remove()` method
   - [ ] 위 메소드들의 시간 복잡도는 무엇인가요?
+
+## How to debug
+
+과제의 문제 해결을 위한 팁을 정리해놓은 내용입니다. 작업하시며 참고해보세요. 🙇🏻‍♂️
+
+[How to debug](/how_to_debug.md)
