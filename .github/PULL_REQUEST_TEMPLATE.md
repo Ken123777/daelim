@@ -24,7 +24,7 @@
 
 #### 아래 내용은 확인 후에 지우시고 PR을 올려주세요!
 
-### TODO 리스트 체크하기
+* ### TODO 리스트 체크하기
 
   - 상단 [ ] 사이에 x 표시를 넣어주시면 체크 완료로 표시됩니다. [Task-List 관련 문법 깃허브 문서](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists)를 참고하실 수 있습니다.
     * ex. 체크 완료로 표시된 경우
