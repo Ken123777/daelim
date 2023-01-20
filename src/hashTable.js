@@ -5,17 +5,19 @@
  *
  */
 
-function HashTable () {
+function HashTable() {
   this._limit = 8;
   this._storage = createLimitedArray(this._limit);
 }
 
 HashTable.prototype.insert = function (k, v) {
   const index = getIndexBelowMaxForKey(k, this._limit);
+  return 1;
 };
 
 HashTable.prototype.retrieve = function (k) {
   const index = getIndexBelowMaxForKey(k, this._limit);
+  return 0;
 };
 
 HashTable.prototype.remove = function (k) {
